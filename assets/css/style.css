@@ -1,0 +1,118 @@
+/* Font Family  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* Font Family End */
+body {
+  font-family: "Montserrat" !important;
+}
+
+/* Hero Section */
+.main-hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.836)),
+    url(../img/hero.jpg) !important;
+  padding: 100px 0px 100px 0px;
+}
+/* Hero Section End */
+
+.book-table-btn {
+  border: none;
+  width: 200px;
+  border-radius: 50px;
+  background: #e9ab22;
+  color: white;
+}
+.three-food-taste {
+  background-color: #e9ab22;
+  padding: 20px;
+  border-radius: 12px;
+  height: 20rem;
+}
+.most-popular-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.836)),
+    url(../img/popular-1.jpg);
+  padding: 50px 10px 40px 10px;
+  border-radius: 18px 0px 18px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.most-popular-card-sec {
+  background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.508)),
+    url(../img/popular-2.jpg);
+  padding: 50px 10px 40px 10px;
+  border-radius: 18px 0px 18px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.most-popular-card-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.437), rgba(0, 0, 0, 0.626)),
+    url(../img/popular-3.jpg);
+  padding: 50px 10px 40px 10px;
+  border-radius: 18px 0px 18px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.most-popular-card-four {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.836)),
+    url(../img/popular-4.jpg);
+  padding: 50px 10px 40px 10px;
+  border-radius: 18px 0px 18px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.view-course-btn {
+  background-color: #e9ab22;
+  width: 150px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+.courses-card {
+  background: white;
+  border-radius: 18px 0px 18px 0px;
+}
+.courses-card img {
+  border-radius: 18px 0px 0px 0px;
+}
+.courses-sec li {
+  list-style: none;
+}
+.courses-sec li i {
+  list-style: none;
+  color: #e9ab22;
+}
+.footer-catigory li {
+  list-style: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+.main-footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.836)),
+    url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  padding: 70px 10px 35px 10px;
+  color: white;
+}
+.main-fotter-ikons {
+  display: flex;
+}
+.main-fotter-ikons li {
+  font-size: 25px !important;
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  background-color: #e9ab22;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-radius: 50%;
+}
